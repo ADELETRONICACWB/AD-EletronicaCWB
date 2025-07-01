@@ -66,11 +66,25 @@ header {
 }
 
 .logo {
-  max-width: 500px;
+  max-height: max-content;
   height: auto;
   display: block;
   margin: 0 auto 10px;
   border-radius: 6px;
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagens {
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+  border-radius: 6px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 nav ul {
   list-style: none;
@@ -159,6 +173,17 @@ button:hover {
     align-items: center;
     gap: 10px;
     margin-top: 10px;
+  }
+
+  .logo {
+    max-width: 100px;
+    margin: 0 auto;
+  }
+
+  .imagens {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto 10px;
   }
 
   .nav-links.active {
